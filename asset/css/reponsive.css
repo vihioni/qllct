@@ -1,0 +1,179 @@
+ /* PC */
+ @media (min-width: 1024px) {
+     .btn_add--mobile {
+         display: none;
+     }
+ }
+
+ /* Tablet & Mobile */
+ @media (max-width: 1023px) {}
+
+ /* Tablet */
+ @media (min-width: 739px) {
+    .btn_add--mobile {
+  display: none;
+    }
+ }
+
+ /* Mobile */
+ @media (max-width: 740px) {
+    .content {
+      width: auto;
+      padding: 0 4px;
+    }
+    
+    .header_icon--calender {
+        font-size: 4rem;
+        color: rgb(43, 158, 0);
+        margin-right: 8px;
+    }
+    
+    .header_text {
+        font-size: 1.8rem;
+        color: #333;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+    }
+
+    .wp_header {
+       width: auto;
+    }
+     .authen-item {
+         display: none;
+     }
+
+     .header {
+         width: auto;
+         padding: 4rem 1rem;
+     }
+
+     .img-user {
+         width: 35px;
+         height: 35px;
+     }
+
+     .img-user:hover .header__navbar-user-menu {
+         display: block;
+     }
+
+     .btn_add {
+         display: none;
+     }
+
+     .warpper_btn-add-mobile {
+         margin-left: 10px;
+
+     }
+
+     .btn_add--mobile {
+         padding: 6px 6px;
+         color: #ffffff;
+         text-decoration: none;
+         background-color: #2b9e00;
+         border-radius: 3px;
+         font-size: 1.4rem;
+     }
+
+     .function_item--mobile-3 {
+         display: flex;
+         flex-direction: column;
+     }
+
+     .function_item--mobile-1 {
+         display: none;
+     }
+
+     .header__navbar-user-menu::before {
+         content: "";
+         position: absolute;
+         top: -30px;
+         left: 132px;
+         border: 20px;
+         border-style: solid;
+         border-color: transparent transparent #ffff transparent;
+         z-index: -1;
+     }
+
+     .header__navbar-user-menu {
+        position: absolute;
+        right: 15px;
+        width: 170px;
+        background-color: #fff;
+        border-radius: 3px;
+        list-style: none;
+        box-shadow: 0 0 2px #ccc;
+        z-index: 1;
+        display: none;
+        top: 60px;
+     }
+
+     .date_function {
+        height: 26px;
+        font-size: 1.6rem;
+     }
+
+     .table_data {
+         width: 100%;
+     }
+
+     .function_item:nth-child(2) {
+        margin: 0;
+       padding-right: 4px;
+     }
+
+    .modal_container {
+        width: 95%;
+    }
+
+    .warper_time {
+        display: block;
+    }
+
+    .warper_item input, select {
+        width: 100%; 
+        padding-bottom: 8px;
+    }
+
+    .warper_btn {
+        width: 100%;
+    }
+    .btn_edit--calenda,
+    .btn_add--calenda {
+        padding: 8px 0;
+        width: 100%;
+    }
+
+    table_data .data_line {
+        padding: 12px 4px;
+    }
+
+    .data_line--mobile {
+        display: none;
+    }
+    .detail_container {
+        width: 95%;
+    }
+    .modal_header p {
+        font-size: 2rem;
+    }
+    .title_text {
+        line-height: 3.4rem;
+        width: 80%;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+
+    .seperate {
+      display: none;
+    }
+
+    .seperate--mobie {
+        display: block;
+        border-left: 2px solid #EAEAEA;
+        height: 17px;
+    }
+
+ }
